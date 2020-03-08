@@ -10,7 +10,7 @@ import {
 } from '../components';
 import {
     Home,
-    Settings
+    Chat
 } from '../screens';
 
 const Stack = createStackNavigator();
@@ -49,17 +49,22 @@ export default function MainNavigator({ navigation }) {
                     )
                 }}
             />
-            {/*<Stack.Screen
-                name="Settings"
-                component={Settings}
+            <Stack.Screen
+                name="Chat"
+                component={Chat}
                 options={{
                     header: (props) => (
-                        <Header leftComponent={
-                            <BackButton />
-                        }/>
+                        <Header
+                            leftComponent={
+                                <BackButton />
+                            }
+                            titleComponent={
+                                <Title title={'Chat (example)'} />
+                            }
+                        />
                     )
                 }}
-            />*/}
+            />
         </Stack.Navigator>
     )
 }
