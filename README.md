@@ -3,6 +3,7 @@
   <h1>Telegram</h1>
   <h4>Telegram experimental design!</h4>
 </div>
+
 Women Day ^_^ | Drawer | Main Animation | Main Animation Continue
 --- | --- | --- | ---
-![Gifwomen](/screenshots/women.gif) | ![Gif0](/screenshots/drawer.gif) | ![Gif1](/screenshots/t1.gif) | ![Gif2](/screenshots/t2.gif)
+![Gifwomen](/screenshots/women.gif) | ![Gif0](/screenshots/drawer.gif) | ![Gif1](/screenshots/t1.gif)  | ![Gif1](/screenshots/t2.gif) 
