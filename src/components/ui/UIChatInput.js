@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TextInput, View } from "react-native";
+import { TextInput, View, TouchableOpacity } from "react-native";
 import Icon from "react-native-vector-icons/Fontisto";
 
 const Input = () => {
@@ -13,7 +13,9 @@ const Input = () => {
             borderTopWidth: 1
         }}>
             <View style={{ flexDirection: 'row', alignItems: 'center', paddingLeft: 15 }}>
-                <Icon name={'slightly-smile'} size={25} color={'#b2b5b9'} />
+                <TouchableOpacity onPress={() => {}}>
+                    <Icon name={'slightly-smile'} size={25} color={'#b2b5b9'} />
+                </TouchableOpacity>
             </View>
             <View style={{ flex: 7, width: '100%', paddingHorizontal: 10 }}>
                 <TextInput
@@ -25,8 +27,12 @@ const Input = () => {
                 />
             </View>
             <View style={{ flex: 2, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingRight: 15 }}>
-                <Icon name={'paperclip'} size={25} color={'#b2b5b9'} />
-                <Icon name={'instagram'} size={25} color={'#b2b5b9'} />
+                <TouchableOpacity onPress={() => {}}>
+                    <Icon name={'paperclip'} size={25} color={'#b2b5b9'} />
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => {}}>
+                    <Icon name={'instagram'} size={25} color={'#b2b5b9'} />
+                </TouchableOpacity>
             </View>
         </View>
     )
