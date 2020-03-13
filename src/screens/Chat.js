@@ -19,7 +19,7 @@ export default function Chat() {
                         data={Fake.MESSAGES}
                         //getItem={}
                         renderItem={({item}) => (
-                            <MessageItem item={item} user={item.user} />
+                            <MessageItem item={item} />
                         )}
                         keyExtractor={(item, index) => `__${index}`}
                         initialScrollIndex={Fake.MESSAGES.length - 1}

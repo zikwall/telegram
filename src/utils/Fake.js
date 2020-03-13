@@ -5,6 +5,9 @@ export const MESSAGE_TYPE_STICKER = 20;
 export const MESSAGE_TYPE_MEDIA = 30;
 export const MESSAGE_TYPE_LINK = 40;
 
+export const DIALOG_TYPE_SIMPLE = 10;
+export const DIALOG_TYPE_GROUP = 20;
+export const DIALOG_TYPE_STREAM = 30;
 
 export const USERS = [
     {
@@ -150,6 +153,7 @@ export const DIALOGS = [
         user: random(USERS),
         last_message: 'Aqui les dejo el link a mi charla de ayer del #ReactWeekMedelin : "Some Video" youtube.com/watch?v=WC0Wkx #react #redux #RxJS',
         last_time: '11:07',
+        type: DIALOG_TYPE_GROUP,
     },
     {
         user: random(USERS),
