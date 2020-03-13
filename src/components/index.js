@@ -11,7 +11,10 @@ export { default as DrawerHeader } from '../components/header/DrawerHeader';
 export { default as UIView } from '../components/ui/UIView';
 export { default as UIAvatar } from '../components/ui/UIAvatar';
 export { default as UICollapsible } from '../components/ui/UICollapsible';
+export { default as UIChatInput } from '../components/ui/UIChatInput';
 
 // Messages & Dialogs
 
 export { default as DialogItem } from '../components/dialog/Item';
+export { default as MessageItem } from '../components/dialog/MessageItem';
+export { default as StickerMessageItem } from '../components/dialog/StickerMessage';

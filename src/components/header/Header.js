@@ -4,7 +4,7 @@ import { View } from 'react-native';
 export default function Header({ leftComponent, titleComponent, rightComponent }) {
     return (
         <View style={{
-            height: 40,
+            height: 60,
             flexDirection: 'row',
             justifyContent: 'space-between',
             alignItems: 'center',
