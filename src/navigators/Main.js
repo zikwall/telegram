@@ -1,5 +1,4 @@
 import React from 'react';
-import { Text, TouchableOpacity, View } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import {
     Header,
@@ -7,15 +6,14 @@ import {
     Menu,
     Title,
     Search,
-    UIAvatar
+    ChatHeader,
+    CharMore
 } from '../components';
 import {
     Home,
     Chat
 } from '../screens';
-import { Fake } from '../utils';
-import { human } from "react-native-typography";
-import Icon from 'react-native-vector-icons/Fontisto';
+import ChatMore from '../components/header/ChatMore';
 
 const Stack = createStackNavigator();
 
@@ -63,22 +61,10 @@ export default function MainNavigator({ navigation }) {
                                 <BackButton />
                             }
                             titleComponent={
-                                <View style={{ flexDirection: 'row' }}>
-                                    <UIAvatar src={Fake.USERS[0].avatar} />
-                                    <View style={{ paddingLeft: 10 }}>
-                                        <Text style={human.footnote}>
-                                            { Fake.USERS[0].name }
-                                        </Text>
-                                        <Text style={[ human.caption1, { paddingTop: 5, color: '#767676' } ]}>
-                                            last seen recently
-                                        </Text>
-                                    </View>
-                                </View>
+                                <ChatHeader />
                             }
                             rightComponent={
-                                <TouchableOpacity onPress={() => {}} style={{ paddingRight: 25, alignItems: 'center' }}>
-                                    <Icon name={'more-v-a'} size={20} color={'#000'} />
-                                </TouchableOpacity>
+                                <ChatMore />
                             }
                         />
                     )

@@ -6,6 +6,8 @@ export { default as Menu } from '../components/header/Menu';
 export { default as Title } from '../components/header/Title';
 export { default as Search } from '../components/header/Search';
 export { default as DrawerHeader } from '../components/header/DrawerHeader';
+export { default as ChatHeader } from '../components/header/ChatHeader';
+export { default as CharMore } from '../components/header/ChatMore';
 
 // UI
 export { default as UIView } from '../components/ui/UIView';
