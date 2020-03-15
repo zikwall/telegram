@@ -1,4 +1,4 @@
-package com.telegram;
+package com.zikwall.telegram;
 
 import com.facebook.react.ReactActivity;
 
