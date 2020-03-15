@@ -1,4 +1,8 @@
 import React, { useEffect, useState } from 'react';
+
+import { enableScreens } from 'react-native-screens';
+enableScreens();
+
 import { StatusBar } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import LottieView from 'lottie-react-native';

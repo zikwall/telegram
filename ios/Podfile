@@ -38,6 +38,8 @@ target 'telegram' do
 
   pod 'lottie-react-native', :path => '../node_modules/lottie-react-native'
 
+  pod 'RNScreens', :path => '../node_modules/react-native-screens'
+
   target 'telegramTests' do
     inherit! :search_paths
     # Pods for testing
