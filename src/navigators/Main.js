@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Text, TouchableOpacity, View } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import {
     Header,
@@ -15,6 +15,7 @@ import {
 } from '../screens';
 import { Fake } from '../utils';
 import { human } from "react-native-typography";
+import Icon from 'react-native-vector-icons/Fontisto';
 
 const Stack = createStackNavigator();
 
@@ -73,6 +74,11 @@ export default function MainNavigator({ navigation }) {
                                         </Text>
                                     </View>
                                 </View>
+                            }
+                            rightComponent={
+                                <TouchableOpacity onPress={() => {}} style={{ paddingRight: 25, alignItems: 'center' }}>
+                                    <Icon name={'more-v-a'} size={20} color={'#000'} />
+                                </TouchableOpacity>
                             }
                         />
                     )
