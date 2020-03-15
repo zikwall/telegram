@@ -4,10 +4,10 @@
   <h4>Telegram experimental design!</h4>
 </div>
 
-Women Day ^_^ | Drawer | Main Animation | Main Animation Continue
---- | --- | --- | ---
-![Gifwomen](/screenshots/women.gif) | ![Gif0](/screenshots/drawer.gif) | ![Gif1](/screenshots/t1.gif)  | ![Gif1](/screenshots/t2.gif) 
+Women Day ^_^ | Main Animation | Main Animation Continue
+--- | --- |  ---
+![Gifwomen](/screenshots/women.gif) | ![Gif1](/screenshots/t1.gif)  | ![Gif1](/screenshots/t2.gif) 
 
-_ | _ | _ | _
+Home | Chat | _ | _
 --- | --- | --- | ---
-![Gifwomen](/screenshots/chat.gif) | coming soon | coming soon  | coming soon
+![Gif0](/screenshots/home.gif) | ![Gifwomen](/screenshots/chat.gif) | coming soon  | coming soon
